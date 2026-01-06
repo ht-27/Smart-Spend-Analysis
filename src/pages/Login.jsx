@@ -68,7 +68,7 @@ function Login() {
                 <p className="text-gray-300 text-sm mb-12 font-medium tracking-wide">Sign in to continue</p>
 
                 <div className="space-y-6 flex flex-col items-center w-full relative z-10">
-                    <div className="w-full">
+                    <div className="w-full flex justify-center">
                         <div className="transform transition-transform hover:scale-105 duration-200">
                             <GoogleLogin
                                 onSuccess={handleSuccess}
